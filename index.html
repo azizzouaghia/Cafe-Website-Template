@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <link rel="stylesheet" href="./style/bootstrap.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./style/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee</title>
+</head>
+<body>
+    <!-- Navbar Starts -->
+ <div>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+<a class="navbar-brand" href="#">BONDIN</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="orderbar nav-link active" aria-current="page" href="#sec2">Order</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="orderbar nav-link active" aria-current="page" href="#sec3">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#sec4">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+ </div>
+    <!-- Navbar Ends -->
+
+<!-- Section 1 Starts -->
+<section class="sec1">
+<div class="container p-1">
+    <div class="row mt-5">
+        <div class="col-6 my-3">
+<h3>Welcome to Bondin</h3>
+<p class="my-4 sec1-p1" style="color: rgb(255, 166, 2) ;">Our chefs are working 24/7 and are ready  <br>
+to accept visitors and at any time of the day and night</p>
+<p class="sec1-p2">We would like to take this opportunity to welcome you at our Cafe. We are offering a warm, friendly atmosphere to
+share a drink with family and friends at any time of the day or evening.
+</p>
+<button class="btn btn-danger"><a href="#sec4"><span class="sec1-btn">LEARN MORE</span></a></button>
+        </div>
+        <div class="col-6 imgsflex mt-4 ">
+<img src="./imgs/cappuccino.jpg" class="imgs img1 img-fluid rounded float-left" alt="" srcset="">
+<img src="./imgs/tea.jpg" class="imgs img2 img-fluid rounded float-right" alt="" srcset="">
+        </div>
+    </div>
+</div>
+</section>
+<!-- Section 1 Ends -->
+<!-- Section 2 Starts -->
+<section id="sec2" class="sec2" >
+    <div class="sec1div">
+    <div class="chooseFrom">
+        <ul>
+            <li id="coffee" class="active">Coffee</li>
+            <li id="drinks">Drinks</li>
+            <li id="hookah">Hookah</li>
+        </ul>
+    </div>
+    </div>
+    <div class="coffeecarousel" id="coffeecarousel">
+    </div>
+    
+    <div class="coffeecarousel" id="drinkscarousel">
+    </div>
+    
+    <div class="coffeecarousel" id="hookahcarousel">
+    </div>
+</section>
+ <!-- Section 2 Ends -->
+ <!-- Section 3 Starts -->
+ <section id="sec3" class="sec3 p-1">
+<div class="container">
+<h4 class="mb-5">some good reviews</h4>
+<div id="rev1">
+  <p>
+    "selection of drinks. Service was attentive and relaxed. The coffee was tasty and of good quality."
+  </p>
+  <h6>Aziz</h6>
+</div>
+<div  id="rev2" style="display:none ;">
+    <p>
+    "They're very attentive and great at offering suggestions if you can't decide what to order, I ordered the tea."
+    </p>
+    <h6>Ala</h6>
+</div>
+<div id="rev3" style="display:none ;">
+    <p>
+        "We've been ordering from these guys for over the years, and we've sampled almost everything on the menu."
+    </p>
+    <h6>Ghassen</h6>
+</div>
+</div>
+<div class="choose-num">
+<nav aria-label="...">
+    <ul class="pagination pagination-sm">
+        <li id="revb1" class="page-item active"><span class="page-link">1</span></li>
+        <li id="revb2" class="page-item"><a class="page-link" >2</a></li>
+        <li id="revb3" class="page-item"><a class="page-link" >3</a></li>
+    </ul>
+</nav>
+</div>
+</section>
+ <!-- Section 3 Ends -->
+<!-- Section 4 Starts -->
+<section class="sec4" id="sec4">
+    <div class="container p-1">
+        <div class="row">
+            <div class="col-6">
+<img src="./imgs/about.jpg" class="img-fluid rounded sec4-img" alt="">
+<img src="./imgs/about-p.jpg" class="img-fluid rounded sec4-img2" alt="">
+            </div>
+            <div class="col-6 sec4-writing">
+<h2 class="sec4-title mb-3">About Our Team</h2>
+<p class="sec4-p">Greets customers and offers restaurant or cafe menus, answers questions about menu offerings, processes drink
+orders.</p>
+<img src="./imgs/sig.png" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Section 4 Ends -->
+<!-- Footer Starts -->
+<footer>
+    <div class="container p-1">
+        <h6 class="mt-2"><a target="_blank" href="https://azizzouaghia.netlify.app">AzizZouaghia</a><span class="footer-r">© 2022. All rights reserved.</span></h6>
+    </div>
+</footer>
+<!-- Footer Ends -->
+<!-- To Top Starts -->
+<i class="fas fa-arrow-up" id="myBtn"></i>
+<!-- To Top Ends -->
+</body>
+    <script src="./js/bootstrap.js"></script>
+    <script type="module" src="./js/main.js"></script>
+    <script type="module" src="./js/carousel.js"></script>
+    <script src="./js/font.js"></script>
+</html>

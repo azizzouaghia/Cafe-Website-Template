@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+* {
+    text-align: center !important;}
+.navbar,.sec2, p,button,.sec3 p,.sec3 h1 {
+    font-family: "Roboto";}
+.navbar {
+    padding-left: 40% !important;}
+html,body {
+overflow-x: hidden;}
+
+
+
+/* Section1 Starts */
+.sec1 {
+    background-color: #cf070705;}
+.sec1 .imgs {
+    width: 260px;
+    height: 260px;
+    margin-left: 15px;}
+.imgsflex {
+    display: flex !important;
+}
+.sec1 h3 {
+    font-size: 80px;
+    font-family: "Inspiration" !important;}
+.sec1 a {
+    text-decoration: none;
+    color: white;}
+/* Section1 Ends */
+
+
+
+/* Section2 Starts */
+.sec2 {
+    background-color: #cf780713;
+    background-size: cover;
+    height: 550px;}
+.carousel-caption {
+    height: 90px;
+    background-color: #f1c40f5e;}
+.coffeecarousel img {
+    height: 450px;}
+.sec2div {
+    padding-top: 20px;}
+.chooseFrom {
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 25%;
+    width: 19% !important;
+    margin-left: 42%;
+    margin-bottom: 45px !important;}
+.chooseFrom ul li {
+    display: inline-block;
+    margin: 3%;
+    margin-top: -0.7px;
+    border-radius: 20%;
+    cursor: pointer;}
+.coffeecarousel {
+    width: 700px !important;
+    margin-left: 25% !important;
+    background-color: black !important;
+    margin-top: -40px !important;}
+.chooseFrom ul .active {
+    font-weight: bolder;
+    color: #f1c40f;}
+.chooseFrom ul {
+    margin-right: 25px !important;
+    font-weight: bold;}
+/* Section2 Ends */
+
+
+
+/* Section3 Starts */
+.sec3 {
+    background-image: url('../imgs/bck2.jpg');
+    background-size: cover;
+    height: 400px;
+    background-position: left 640px;}
+.sec3 .container {
+    margin-top: 40px;}
+.choose-num {
+    position: relative;
+    margin-left: 47% !important;
+    margin-top: 65px;}
+.sec3 h4 {
+    font-family: "Inspiration" !important;
+    font-size: 80px;
+    color: darkorange;}
+.sec3 h6 {
+    color: #f1c40f;}
+.sec3 ul li {
+    cursor: pointer;}
+/* Section3 Ends */
+
+
+
+/* Section4 Starts */
+.sec4 {
+    height: 400px;
+    background-color: #cf070705;}
+.sec4-writing {
+    margin-top: 85px;}
+.sec4-img {
+    margin-top: 50px;
+    width: 400px;
+    height: 300px;
+    margin-right: 5%;}
+.sec4-title {
+        font-family: "Inspiration" !important;
+        font-size: 80px;
+        color: darkorange;}
+.sec4-p {
+        font-family: "Roboto";}
+.sec4-img2 {
+    display: none;}
+/* Section4 Ends */
+
+
+
+/* Footer Starts */
+footer {
+    background-image: url("../imgs/footer.jpg");
+    height: 50px;
+    font-family: "Roboto";
+    margin-top: -15px;}
+.footer-r {
+    color: white;}
+footer a {
+    text-decoration: none;
+    color: darkorange;}
+/* Footer Ends */
+
+
+
+/* To Top Starts */
+#myBtn {
+    font-size: 50px;
+    opacity: 70%;
+    color: darkorange;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;}
+#myBtn:hover{
+    opacity: 100%;}
+/* To Top Ends */
+
+
+/*****     Small Screens        *****/ 
+@media (max-width:450px) { 
+
+
+
+/* Section1 Starts */
+.sec1 {
+    background-color: #cf070705;
+    margin-top: -30px;}
+.imgsflex {
+    display:inline !important;}
+.sec1 .img1 {
+    margin-top: 113px;
+    width: 120px;
+    height: 120px;}
+.sec1 .img2 {
+    margin-top: 55px;
+    width: 120px;
+    height: 120px;}
+.sec1-p1 {
+    font-size: 15px;}
+.sec1-btn {
+    font-size: 13px !important;}
+.sec1-p2 {
+    font-size: 15px;}
+.sec1 a {
+    text-decoration: none;
+    color: white;}
+.sec1 h3 {
+    font-size: 40px;
+    font-family: "Inspiration" !important;}
+/* Section1 Starts */
+
+
+
+/* Section2 Starts */
+.coffeecarousel {
+    width: 98% !important;
+    margin-left: 1% !important;
+    margin-top: -40px !important;}    
+.navbar {
+    padding-left: 0% !important;}
+.chooseFrom ul li {
+    margin-top: 5px !important;}    
+.chooseFrom ul {
+    margin-right: 0px !important;}    
+.chooseFrom {
+    border-radius: 25%;
+    width: 70% !important;
+    margin-left: 15%;
+    margin-bottom: 45px !important;}
+.sec2 {
+    height: 325px;}
+.coffeecarousel img {
+    height: 250px;}
+/* Section2 Ends */
+
+
+
+/* Section3 Starts */
+.sec3 {
+    background-image: url('../imgs/bck2-p.jpg');
+    height: 300px;
+    background-position: left 600px;
+    margin-top: -30px;}
+.sec3 .container {
+    margin-top: 10px;}
+.choose-num {
+    position: relative;
+    margin-left: 38% !important;
+    margin-top: 25px;}
+.choose-num .page-link {
+    font-size: 15px;}
+.sec3 h4 {
+    margin-top: 25px;
+    margin-bottom: 12px !important;
+    font-family: "Inspiration" !important;
+    font-size: 50px;
+    color: darkorange;}
+/* Section3 Ends */
+
+
+
+/* Section4 Starts */
+.sec4 {
+    margin-top: -35px;
+    height: 200px;
+    background-color: #cf070705;
+}
+
+.sec4-writing {
+    margin-top: 85px;
+}
+.sec4-img{
+    display: none;
+}
+.sec4-img2 {
+    display: block;
+    margin-top: 90px;
+    width: 300px;
+    height: 280px;
+    margin-right: 5%;
+}
+
+.sec4-title {
+    font-family: "Inspiration" !important;
+    font-size: 40px;
+    color: darkorange;
+    margin-top: -25px;
+}
+
+.sec4-p {
+    font-family: "Roboto";
+}
+/* Section4 Ends */
+/* Footer Starts */
+footer {
+    background-image: url("../imgs/footer.jpg");
+    height: 45px !important;
+    font-family: "Roboto";
+    margin-top: 205px;}
+/* Footer Ends */
+
+
+
+/* To Top Starts */
+#myBtn {
+    font-size: 45px;
+    opacity: 70%;
+    color: darkorange;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 0px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;}
+#myBtn:hover {
+    opacity: 100%;}
+/* To Top Ends */
+
+}
