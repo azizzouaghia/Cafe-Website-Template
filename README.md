@@ -8,5 +8,5 @@ A Cafe Responsive template.
 
 #### Review  [HERE](https://azizzouaghia.github.io/Cafe-Website-Template/)
 <p align="center">
-<img src="https://i.ibb.co/rtZK2C6/bondin.png" width="400" height="600" />
+<img src="https://i.ibb.co/yhq7cV3/all-devices-white-3.png"/>
 </p>
